@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "esModuleInterop": true
+  },
+  "include": ["lib/*"],
+  "exclude": ["node_modules"]
+}
