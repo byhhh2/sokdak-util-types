@@ -1,6 +1,6 @@
 {
   "name": "sokdak-util-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "util types for sokdak",
   "main": "lib/index.ts",
   "types": "lib/index.ts",
