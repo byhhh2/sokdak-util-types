@@ -1,8 +1,19 @@
-import { Expect } from '../lib';
+import { PropsWithChildrenC, StateAndAction } from '../lib';
 import { expectType } from 'tsd';
+import { Dispatch, ReactNode, SetStateAction } from 'react';
 
-const e: Expect<true> = true;
+interface Props {}
+type Children = ReactNode;
 
-test('TEST: Expect', () => {
-  expectType<boolean>(e);
+let props: PropsWithChildrenC<Props, Children>;
+
+test('TYPE : PropsWithChildrenC', () => {
+  expectType<PropsWithChildrenC>(props);
+});
+
+let state: boolean;
+let setState: Dispatch<SetStateAction<boolean>>;
+
+test('', () => {
+  expectType<StateAndAction<boolean, 'state'>>({ state, setState });
 });

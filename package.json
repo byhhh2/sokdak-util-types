@@ -1,6 +1,6 @@
 {
   "name": "sokdak-util-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "util types for sokdak",
   "main": "lib/index.ts",
   "types": "lib/index.ts",
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/byhhh2/sokdak-util-types#readme",
   "devDependencies": {
     "@types/jest": "^29.0.3",
+    "@types/react": "^18.0.21",
     "jest": "^29.0.3",
     "ts-jest": "^29.0.2",
     "tsd": "^0.24.1",
